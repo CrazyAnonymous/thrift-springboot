@@ -15,7 +15,6 @@ hs_err_pid*
 *.project
 *.settings
 *.springBeans
-*.gradle
 *.iml
 .externalToolBuilders
 target
