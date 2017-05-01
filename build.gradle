@@ -15,5 +15,5 @@ allprojects {
 
 dependencies {
 	compile 'ch.qos.logback:logback-classic:1.2.1'
-    testCompile 'junit:junit:4.12'
+    compile 'junit:junit:4.12'
 }
