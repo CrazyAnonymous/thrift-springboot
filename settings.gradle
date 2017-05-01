@@ -1,0 +1,3 @@
+include 'thrift-springboot-utils', 'thrift-springboot-api', 'thrift-springboot-service', 'thrift-springboot-client'
+
+rootProject.name = 'thrift-springboot'

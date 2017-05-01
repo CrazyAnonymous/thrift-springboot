@@ -1,0 +1,19 @@
+apply plugin: 'java'
+
+allprojects {
+	compileJava.options.encoding = 'UTF-8'
+	
+	tasks.withType(JavaCompile) {
+	    options.encoding = 'UTF-8'
+	}
+
+	repositories {
+	    maven {url 'http://maven.aliyun.com/nexus/content/groups/public'}
+	}
+}
+
+
+dependencies {
+	compile 'ch.qos.logback:logback-classic:1.2.1'
+    testCompile 'junit:junit:4.12'
+}

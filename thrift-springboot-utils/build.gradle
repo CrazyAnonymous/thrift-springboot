@@ -1,0 +1,16 @@
+apply plugin: 'java'
+
+repositories {
+    maven {url 'http://maven.aliyun.com/nexus/content/groups/public'}
+}
+
+dependencies {
+	compile 'org.springframework:spring-context:4.3.7.RELEASE'
+	testCompile 'org.springframework:spring-test:4.3.7.RELEASE'
+	compile 'org.apache.zookeeper:zookeeper:3.4.9'
+	compile 'org.apache.thrift:libthrift:0.9.3'
+	compile 'org.apache.curator:curator-recipes:2.3.0'
+	compile 'commons-pool:commons-pool:1.6'
+	compile 'ch.qos.logback:logback-classic:1.2.1'
+    testCompile 'junit:junit:4.12'
+}

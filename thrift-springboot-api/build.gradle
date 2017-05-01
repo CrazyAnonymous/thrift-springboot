@@ -1,0 +1,11 @@
+apply plugin: 'java'
+
+repositories {
+    maven {url 'http://maven.aliyun.com/nexus/content/groups/public'}
+}
+
+dependencies {
+	compile 'org.apache.thrift:libthrift:0.10.0'
+	//compile 'ch.qos.logback:logback-classic:1.2.1'
+    //testCompile 'junit:junit:4.12'
+}
